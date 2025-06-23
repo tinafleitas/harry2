@@ -1,0 +1,33 @@
+.nombl {/*ESTE ES DE ESTA PAGINA/*/
+    font-size: 80px;
+    text-align:center; 
+}
+p{ /*ESTE ES DE ESTA PAGINA/*/
+    
+    font-size: 20px;
+    color: rgb(121, 105, 17);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color: rgba(163, 163, 163, 0.507);
+    
+}
+
+h3{/*ESTE ES DE ESTA PAGINA/*/
+    font-size: 50px;
+    text-align:center; 
+}
+form{
+   display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 50px; 
+  gap: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+

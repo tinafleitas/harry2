@@ -1,0 +1,41 @@
+.div1{
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.24);
+     align-items: center;
+     align-content: center
+
+}
+form{
+     display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+h3:hover{
+    color:goldenrod;
+    
+}
+p{
+    font-size: 30px;
+}
+h5{
+    color:#fff;
+}
+form{
+   display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 50px; 
+  gap: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}

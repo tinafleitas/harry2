@@ -1,0 +1,12 @@
+h1, figure, form{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: medium;
+    align-items:center;
+}
+p{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 40px;
+    align-items:center; 
+}

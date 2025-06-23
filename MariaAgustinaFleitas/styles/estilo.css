@@ -1,0 +1,104 @@
+.fondo{
+    border: solid 6px coral;
+    outline: black solid medium;
+    background-color: rgb(112, 112, 143);
+}
+.texto {
+  background-color: rgba(0, 0, 0, 0.5); /* negro con 50% de opacidad */
+  color: white;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.p{
+    font-size: 20px; /*ESTA PAGINA*/
+}
+.fuente2 {
+    
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style:normal;
+       
+        font-size: 30px;
+   
+}
+.fuente3 {
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style:normal;
+       
+        font-size: 20px ;
+        outline-offset: 3px;
+        line-height: 30px;
+
+
+}
+.letra{
+    color: black;
+    font-size: 20 px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    text-align:center;
+}
+.fuente4{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style:normal;
+    
+    font-size: 20px ;
+    outline:black solid medium;
+    outline-offset: 3px;
+    line-height: 30px;
+}
+.fuente5{
+   
+   
+    font-size: 20px ;
+    font-weight: 100;
+}
+
+.img{
+    text-decoration: underline;
+    color: rgb(33, 56, 56);
+}
+
+aside{
+     
+    display: flex;
+    margin-top: 350px;
+
+}
+img:hover{
+   scale:2;
+}
+
+a:hover{
+    color:brown;
+
+}
+a{
+    text-decoration: underline;
+    text-decoration: none;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    
+}
+article {
+
+ flex:1;
+}
+.contenedordiv{
+     background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f0f0f057;
+}
+div{
+    margin-top: auto;
+}

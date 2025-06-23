@@ -1,0 +1,101 @@
+.nuevaFuente{
+     
+    font-family:'Courier New', Courier, monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+}
+.cuadrado{
+  
+  font-size: 30px;
+}
+.uno{
+  font-family: "EB Garamond", serif;
+  font-style:italic;
+   font-size:40px;
+   color:rgba(139, 0, 0, 0.644);
+}
+body{
+         background-image: url("/img/cielo1.webp"); 
+          min-height: 100vh;
+          display: flex;
+        flex-direction: column;
+}
+nav{
+    display: flex;
+     flex-direction: column;
+}
+main{
+    display: flex;
+  flex-direction: row; /* para columnas lado a lado */
+  gap: 20px;           /* espacio entre article y aside */
+  padding: 20px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+#cerrar{
+    display: none;
+}
+#panelhambur{
+    height: 100vh;
+    width: 300px;
+    position:fixed;/*queda todo el tiempo/*/
+    top:10vh;
+    right:-1000px;/*sacas de la hambuerguesa*/
+    background-color:rgba(26, 25, 25, 0.637);
+    transition: background-color 3s ease, opacity 9.5s ease;
+    justify-content: space-between; 
+    top: 0;
+  overflow-y: auto;
+    
+ 
+}
+#panelhambur:target~ header nav #abrir {
+    display: none;
+}
+#panelhambur:target~ header nav #cerrar{
+    display: inline-block;
+}
+#panelhambur:target{
+    right:0;
+    z-index: 999; 
+}
+footer{
+  background-color:  #000000;
+    color: #fff;
+    text-align:center; 
+    font-family: "EB Garamond", serif;
+     margin-top: 50px;
+ 
+}
+img{ 
+    display:block;
+    
+}
+.logo{
+    display: flex;
+  align-items: center; 
+}
+.nombl { /* ESTO ES DE ESTA PAGINA/*/
+    font-size: 80px;
+}
+h2:hover {
+    color:brown
+}
+.contenedor{
+    
+   color:darkgoldenrod;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 30px ;
+   top:0;
+   height: 50px;
+   padding: 10px;
+   
+  text-align: center;
+
+}
